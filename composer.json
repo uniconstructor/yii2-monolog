@@ -1,0 +1,44 @@
+{
+  "name": "kop/yii2-monolog",
+  "description": "A Yii2 logger component with all Monolog features",
+  "homepage": "http://kop.github.io/yii2-monolog",
+  "keywords": [
+    "yii",
+    "yii2",
+    "psr",
+    "psr3",
+    "log",
+    "logger",
+    "monolog"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/kop/yii2-monolog/issues",
+    "source": "https://github.com/kop/yii2-monolog"
+  },
+  "authors": [
+    {
+      "name": "Ivan Koptiev",
+      "email": "ivan.koptiev@codex.systems",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "monolog/monolog": "~1.12"
+  },
+  "require-dev": {
+    "codeception/codeception": "~2.0",
+    "codeception/specify": "~0.4",
+    "codeception/verify": "~0.2"
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "kop\\yii2\\monolog\\": ""
+    }
+  }
+}
