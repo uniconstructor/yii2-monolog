@@ -1,6 +1,6 @@
 <?php
 
-namespace kop\yii2\monolog;
+namespace uniconstructor\yii2\monolog;
 
 use Monolog\Handler\HandlerInterface;
 use Monolog\Logger as MonologLogger;
@@ -24,7 +24,7 @@ use yii\log\Logger as YiiLogger;
  *      'components' => [
  *          ...
  *          'logger' => [
- *              'class' => '\kop\yii2\monolog\Logger',
+ *              'class' => '\uniconstructor\yii2\monolog\Logger',
  *          ],
  *          ...
  *      ],
@@ -34,8 +34,8 @@ use yii\log\Logger as YiiLogger;
  *
  * @mixin MonologLogger
  *
- * @link      http://kop.github.io/yii2-monolog GitHub repo.
- * @license   https://github.com/kop/yii2-monolog/blob/master/LICENSE.md MIT
+ * @link      http://uniconstructor.github.io/yii2-monolog GitHub repo.
+ * @license   https://github.com/uniconstructor/yii2-monolog/blob/master/LICENSE.md MIT
  *
  * @author    Ivan Koptiev <ivan.koptiev@codex.systems>
  */
